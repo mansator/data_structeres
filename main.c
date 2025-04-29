@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Стуруктура
 typedef struct IntArray {
   int *array;
   int size;
