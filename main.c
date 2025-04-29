@@ -1,11 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-
-typedef struct IntArray {
-  int *array;
-  int size;
-  int capacity;
-} IntArray;
+#include "main.h"
 
 void print_array(IntArray a) {
   for (int i = 0; i < a.size; i++) {
